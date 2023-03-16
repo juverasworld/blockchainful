@@ -1,0 +1,22 @@
+Position property : these are property that sets how a document is positioned in a document, whether it should be top, left, right or bottom. that is the position of the final element.
+
+The position element uses property values like absolute, relative, static and fixed, sticky.
+
+The Static:
+The element is positioned according to the normal flow of the document, here [her we the top, bottom,left or right has no effect]
+
+The Relative:
+The relative position is basically positioned according to the normal flow of the document and there offset relative to itself based on the values of the top, bottom, right and left. it doesn't affect anyother element it deals with just the one that specifies.
+
+The Absolute:
+The element is removed from the normal flow and no space is created for the element in the page layout.{it is positioned relativeto its closet positioned ancestor, if any other it is placed relative to the initial containing block}
+
+The Fixed:
+The element is removed from the normal flow and no space is created for it in the page layout. it is thus positioned relative to the initial containing block.
+
+
+A media query is a CSS technique used to apply styles based on specific characteristics of the user's device, such as the screen size, resolution, orientation, or device type. It allows you to create different styles for different devices, which helps to create a responsive design that adapts to the user's device.
+
+Media queries are written using the @media rule in CSS, followed by one or more conditions that specify the characteristics of the device. For example, you can use a media query to apply different styles when the screen width is below a certain size, or when the device is in landscape orientation.
+
+Media queries can be used to make web pages more accessible and user-friendly on a wide range of devices, from desktop computers to smartphones and tablets. By using media queries, you can create a single codebase that adapts to different devices, instead of creating separate versions of your website for each device type.
